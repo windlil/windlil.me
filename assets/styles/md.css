@@ -6,6 +6,10 @@ pre {
   color: #4c4c4c !important;
 }
 
+.dark .prose p {
+  color: #bbbbbb !important;
+}
+
 .content section {
   justify-content: normal !important;
 }

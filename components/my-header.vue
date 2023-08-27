@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import DarkToggle from './DarkToggle.vue'
 </script>
 
 <template>
@@ -21,7 +21,7 @@
         <div class="i-carbon:logo-github"></div>
       </NuxtLink>
       <div>
-        <div class="i-carbon:light"></div>
+        <DarkToggle />
       </div>
     </nav>
   </header>

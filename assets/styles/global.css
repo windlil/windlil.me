@@ -1,0 +1,12 @@
+html {
+  background-color: #fff;
+  color: #000;
+  position: relative;
+}
+
+html.dark {
+  background-color: #101010;
+  color: #fff;
+  position: relative;
+}
+
