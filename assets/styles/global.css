@@ -33,3 +33,7 @@ html.dark {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--c-scrollbar-hover);
 }
+
+::selection {
+  background: #8884;
+}

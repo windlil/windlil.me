@@ -17,7 +17,7 @@ defineProps<Props>()
 </script>
 
 <template>
-  <div>
+  <div class="mt-10px">
     <h1 class="text-30px font-bold mb-25px">
       {{ type }}
     </h1>
