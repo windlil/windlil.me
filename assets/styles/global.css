@@ -2,6 +2,7 @@ html {
   background-color: #fff;
   color: #000;
   position: relative;
+  transition: 0.2s ease-in-out;
 }
 
 html.dark {
@@ -10,3 +11,25 @@ html.dark {
   position: relative;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: var(--c-bg);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--c-scrollbar);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-scrollbar-hover);
+}

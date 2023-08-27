@@ -18,6 +18,15 @@ function toggleTheme() {
 
 <template>
   <button @click="toggleTheme" class="flex justify-center items-center">
-    <div class="i-carbon:light dark:i-carbon:moon"></div>
+    <div class="i-carbon:light dark:i-carbon:moon toggle"></div>
   </button>
 </template>
+
+<style scoped>
+.toggle {
+  color: var(--link-color);
+}
+.toggle:hover {
+  color: var(--link-hover);
+}
+</style>

@@ -1,5 +1,15 @@
 pre {
+  padding: 12px;
   background-color: #efefef !important;
+  border-radius: 5px;
+}
+
+.prose {
+  color: rgb(73, 73, 73) !important;
+}
+
+.dark .prose {
+  color: rgb(219, 219, 219) !important;
 }
 
 .prose p {
@@ -12,4 +22,16 @@ pre {
 
 .content section {
   justify-content: normal !important;
+}
+
+.prose a {
+  text-decoration: none !important;
+}
+
+pre {
+  background-color: rgb(244, 244, 244) !important;
+}
+
+.dark pre {
+  background-color: rgb(25, 25, 25) !important;
 }

@@ -2,12 +2,11 @@
 import { defineConfig } from 'unocss'
 import { presetUno } from 'unocss'
 import presetIcons from '@unocss/preset-icons'
+
+
 import {
   presetAttributify,
   presetTypography,
-  presetWebFonts,
-  transformerDirectives,
-  transformerVariantGroup,
 } from 'unocss'
 
 export default defineConfig({
@@ -20,6 +19,7 @@ export default defineConfig({
       {
       collections: {
         carbon: () => import('@iconify-json/carbon/icons.json').then(i => i.default),
+        simple: ():Promise<any> => import('@iconify-json/simple-icons/icons.json').then(i => i.default),
       },
       scale: 1.2,
     }),

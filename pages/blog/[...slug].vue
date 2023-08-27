@@ -4,6 +4,6 @@
 
 <template>
   <section>
-    <ContentDoc />
+    <ContentDoc class="prose"/>
   </section>
 </template>

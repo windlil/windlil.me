@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   css: [
     '@unocss/reset/tailwind.css',
     '@/assets/styles/md.css' ,
-    '@/assets/styles/global.css' ,
+    '@/assets/styles/global.css',
+    '@/assets/styles/theme.css',
   ],
   modules: [
     '@unocss/nuxt',

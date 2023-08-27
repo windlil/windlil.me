@@ -1,0 +1,24 @@
+html {
+  --c-bg: #fafafa;
+  --c-scrollbar: #ccc;
+  --c-scrollbar-hover: #aaa;
+  --item-color: #6a6a6a;
+  --item-hover: #000;
+  --link-hover: #000;
+  --link-color: #717171;
+  --link-hover: #000;
+  --list-item-bg: #f2f2f2;
+  --list-item-bg-hover: #e0e0e0;
+}
+
+html.dark {
+  --c-bg: #141414;
+  --c-scrollbar: #555;
+  --c-scrollbar-hover: #777;
+   --item-color: #bababa;
+   --item-hover: #e6e6e6;
+   --link-color: #989898;
+   --link-hover: #fff;
+   --list-item-bg: #1f1f1f;
+   --list-item-bg-hover: #121212;
+}
